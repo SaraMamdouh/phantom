@@ -1,0 +1,11 @@
+.page-section {
+  display: grid;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 72% 28%;
+   padding: 50px 56px 0 56px;
+}
+
+

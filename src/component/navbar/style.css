@@ -1,0 +1,139 @@
+.personal{
+    width:227px;
+    height: 48px;
+}
+.image{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.navbar-content{
+    display: flex;
+}
+.dashboard-navbar{
+    padding-top: 30px;
+    padding-right: 41px;
+}
+.dashboard-navbar .personal{
+    font-size: 12px;
+    display: flex;
+    text-align: left;
+    color: white;
+}
+.fa-bell{
+    width: 48px;
+    height: 48px;
+    color: #6F7291;
+    border:1px solid #2D325A;
+    border-radius: 8px;
+    padding: 14px;
+    position: relative;
+    margin-right: 20px;
+}
+.fa-bell:hover{
+    cursor:pointer;
+}
+.fa-bell::after{
+position: absolute;
+content:"";
+width:12px;
+height: 12px;
+border-radius: 50%;
+background-color: #FE7448;
+top: -5px;
+right: -4px;
+}
+.dashboard-navbar .name{
+    display: block;
+    margin-bottom: 5px;
+}
+.dashboard-navbar .email,.dashboard-navbar .light{
+    opacity: 0.6;
+}
+.dashboard-navbar .fa-chevron-down{
+    font-size: 16px;
+    position: relative;
+    top: -16px;
+    left: 16pX;
+}
+
+.dashboard-navbar .dropdown-menu{
+    width: 320px;
+    height: 347px;
+    background-color: #2C3159;
+    border: 1px solid #3D447B;
+    color: white;
+    border-radius: 8px;
+    top: 52px;
+    left: -125px;
+
+}
+.dashboard-navbar .dropdown-menu ul{
+    list-style: none;
+    padding: 15px;
+}
+.dashboard-navbar .dropdown-menu li{
+    display: flex;
+    margin-bottom: 4px;
+}
+.dashboard-navbar .dropdown-menu li:nth-child(2),.dashboard-navbar .dropdown-menu li:nth-child(3){
+    border:1px solid rgba(254,116,72,0.4);
+    border-radius: 4px;
+    max-height: 59px;
+}
+.dashboard-navbar .dropdown-menu h6{
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.dashboard-navbar .dropdown-menu .time{
+    display: block;
+}
+.dashboard-navbar .dropdown-menu .fa-check-circle{
+    color: #1EC1C3;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    position: relative;
+    padding: 6px;
+}
+.dashboard-navbar .dropdown-menu .fas{
+    margin-left: 5px;
+}
+.dashboard-navbar .dropdown-menu .fa-check-circle::after{
+    content:"";
+    position: absolute;
+    top:1px;
+    left: 0;
+    background-color: #1EC1C3;
+    opacity: 0.2;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.dashboard-navbar .dropdown-menu svg{
+    margin: 8px 10px 8px 8px;
+}
+.dashboard-navbar .dropdown-menu .email-circle{
+    position: relative;
+    margin-top: 7px;
+}
+.dashboard-navbar .dropdown-menu .email-circle::before{
+    content:"";
+    width: 32px;
+    height: 32px;
+    background-color: #FCBC23;
+    position: absolute;
+    border-radius: 50%;
+opacity: 0.2;
+z-index: -1;
+
+}
+.clicked{
+    background-color: #01A9F4;
+    color: white;
+}
+.display{
+    display: block!important;
+}
