@@ -1,6 +1,6 @@
 .first-card{
-    width: 455px;
-    padding-top: 76px;
+   width: 455px;
+    padding-top: 60px;
     min-height: 240px;
     color:white;
 }
@@ -52,7 +52,7 @@
 
                     /* component2*/
 .sidebar .second-card{
-        width: 455px;
+    width: 455px;
     height: 97px;
     color: white;
 }
@@ -92,7 +92,6 @@
 
 .fourth-card{
     width: 455px;
-
     height: 172px;
     padding-top: 25px;
 }

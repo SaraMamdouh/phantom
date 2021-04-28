@@ -1,6 +1,7 @@
 import React, { useEffect ,useState} from 'react';
-import { connect } from 'react-redux'
-import'./style.css'
+import { connect } from 'react-redux';
+import'./style.css';
+
 
 const FilterComponent = (props)=>{
     var total=props.data.data.length;
